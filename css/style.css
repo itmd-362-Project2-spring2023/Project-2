@@ -82,3 +82,11 @@ main {
   width:1.5rem;
   margin:0.3rem;
 }
+
+#slider{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  
+}

@@ -87,6 +87,20 @@ main {
   margin:0.3rem;
 }
 
+#slider{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/**img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}**/
+
 @media screen and (min-width:900px){
   .content-section{
     width:47%;
@@ -105,3 +119,4 @@ main {
     align-content: center;
   }
 }
+

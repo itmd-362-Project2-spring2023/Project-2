@@ -104,7 +104,6 @@ main {
 @media screen and (min-width:900px){
   .content-section{
     width:47%;
-    float:center;
     padding:0.5rem;
   }
   main{

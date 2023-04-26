@@ -67,6 +67,10 @@ input,form{
   width:100%;
 }
 
+.incorrect {
+  background-color: #FAA;
+}
+
 .center {
   text-align:center;
 }

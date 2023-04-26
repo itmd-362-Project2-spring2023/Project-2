@@ -36,18 +36,18 @@
           <form>
             <div class="input">
               <label for="fname">First Name:</label>
-              <input type="text" id="fname" placeholder="First Name">
+              <input type="text" onkeyup="validateForm()" id="fname" placeholder="First Name">
             </div>
             <div class="input">
               <label for="lname">Last Name:</label>
-              <input type="text" id="lname" placeholder="Last Name">
+              <input type="text" onkeyup="validateForm()" id="lname" placeholder="Last Name">
             </div>
             <div class="input">
               <label for="email">Email:</label>
-              <input type="email" id="email" placeholder="name@example.com">
+              <input type="email" onkeyup="validateForm()" id="email" placeholder="name@example.com">
             </div>
             <div class="input">
-              <input type="submit" value="Join Now!">
+              <input type="submit" disabled id="submit" value="Join Now!">
             </div>
           </form>
         </fieldset>
